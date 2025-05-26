@@ -136,7 +136,7 @@ Designed with scalability, security, and automation in mind, this pipeline is id
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/jaiswaladi246/DevOps_Shack_Ultimate_Pipeline_12_march.git
+git clone https://github.com/nightsky213/cicd-project.git
 ```
 
 2. **Configure Secrets**
