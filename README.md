@@ -1,4 +1,4 @@
-# CI/CD Project: DevOps Shack Ultimate Pipeline (12 March)
+# CI/CD Project: DevOps Shack Ultimate Pipeline
 
 > **Author:** Vibhava N
 > **Project Name:** ci-cd project
