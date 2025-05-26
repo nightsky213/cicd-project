@@ -158,4 +158,17 @@ git clone https://github.com/nightsky213/cicd-project.git
 
    * Push to `main` branch.
 
-> Built and Maintained by **Vibhava N**
+---
+
+## 📚 Blog Summary
+
+See `BLOG.md` for detailed phase-wise description.
+
+---
+
+## 📋 Additional Resources
+
+* [The Ultimate CICD Corporate DevOps Pipeline](https://medium.com)
+
+---
+
