@@ -112,31 +112,6 @@ Designed with scalability, security, and automation in mind, this pipeline is id
 
 ---
 
-## 🦖 Setup Instructions
 
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/nightsky213/cicd-project.git
-```
-
-2. **Configure Secrets**
-
-   * GitHub secrets required:
-
-     * `AWS_ACCESS_KEY_ID`
-     * `AWS_SECRET_ACCESS_KEY`
-     * `DOCKER_USERNAME`
-     * `DOCKER_PASSWORD`
-     * `SONAR_TOKEN`
-    
-
-3. **Update Config Files**
-
-   * Edit `deployment.yml`, `.github/workflows/ci-cd.yml` etc.
-
-4. **Trigger the Pipeline**
-
-   * Push to `main` branch.
 
 
