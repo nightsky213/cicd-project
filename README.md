@@ -19,7 +19,7 @@ Designed with scalability, security, and automation in mind, this pipeline is id
 * **Tool Integration**: Includes GitHub Actions, Maven, SonarQube, Docker, Kubernetes, Trivy, Gitleaks.
 * **Security Focused**: Security scans using Trivy and Gitleaks.
 * **Cloud Native Deployment**: Deploys to **AWS EKS**.
-* **Notifications**: Real-time alerts via **Slack**.
+
 
 ---
 
@@ -32,7 +32,7 @@ Designed with scalability, security, and automation in mind, this pipeline is id
 * **Containerization**: Docker
 * **Orchestration**: Kubernetes (EKS)
 * **Monitoring**: Prometheus, Grafana
-* **Notifications**: Slack
+* **Notifications**: Gmail
 
 ---
 
@@ -79,7 +79,7 @@ Designed with scalability, security, and automation in mind, this pipeline is id
         +-----------+-----------+
                     |
         +-----------+-----------+
-        | Slack Notifications   |
+        | Gmail Notifications   |
         +-----------------------+
 ```
 
@@ -89,44 +89,26 @@ Designed with scalability, security, and automation in mind, this pipeline is id
 
 ### Phase 1: Infrastructure Setup
 
-* Includes images of Terraform provisioning and AWS EKS setup.
+* Includes images of Terraform provisioning and AWS EKS setup, Jenkins, Nexus, SonarQube.
 
-### Phase 2: Code Compilation
+### Phase 2: Github repo setup
 
-* Screenshots of Maven build process for a Java app.
+* Screenshots of repo setup.
 
-### Phase 3: Security Scan
+### Phase 3: CICD
 
-* Shows Gitleaks and Trivy scanning results.
+* Includes setup steps and images of building cicd.
 
-### Phase 4: Unit Testing
+### Phase 4: Monitor
 
-* Test execution outputs validating the application.
+* Includes setup steps and images of implementing monitoring tools.
 
-### Phase 5: SonarQube Analysis
-
-* Screenshots from SonarQube dashboard.
-
-### Phase 6: Dockerization
-
-* Docker image creation and push to Docker Hub.
-
-### Phase 7: Kubernetes Deployment
-
-* Deployed app UI, includes boardgame list screenshot.
-
-### Phase 8: Slack Notifications
-
-* Slack message for deployment success.
-
----
 
 ## 🛠️ Prerequisites
 
 * **AWS Account**
 * **Docker Hub Account**
 * **SonarQube Account**
-* **Slack Workspace**
 * **GitHub Repository**
 
 ---
@@ -148,7 +130,7 @@ git clone https://github.com/nightsky213/cicd-project.git
      * `DOCKER_USERNAME`
      * `DOCKER_PASSWORD`
      * `SONAR_TOKEN`
-     * `SLACK_WEBHOOK`
+    
 
 3. **Update Config Files**
 
@@ -158,17 +140,4 @@ git clone https://github.com/nightsky213/cicd-project.git
 
    * Push to `main` branch.
 
----
-
-## 📚 Blog Summary
-
-See `BLOG.md` for detailed phase-wise description.
-
----
-
-## 📋 Additional Resources
-
-* [The Ultimate CICD Corporate DevOps Pipeline](https://medium.com)
-
----
 
