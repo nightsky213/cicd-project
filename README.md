@@ -3,6 +3,9 @@
 > **Project Name:** ci-cd project
 
 ---
+## 📖 Project Blog
+
+Read the full story behind this project on Medium: [Building an Open Source Incident Management System with Flask, SQLite, Docker & Email Alerts](https://medium.com/@vibhavakrishna999/cicd-project-e91852f046ec)
 
 ## 🚀 About the Project
 
