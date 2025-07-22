@@ -1,4 +1,4 @@
-# CI/CD Project: DevOps Shack Ultimate Pipeline
+# CI/CD Project: DevOps Pipeline
 
 > **Project Name:** ci-cd project
 
